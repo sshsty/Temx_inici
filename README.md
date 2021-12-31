@@ -4,6 +4,8 @@ Esta herramienta fue creada para automatizar la instalación de paquetes de term
 
 Forma de uso :
 
+git clone https://github.com/DezzmainOsKreuz/Temx_inici
+
 cd Termx_inici
 
 bash auto.sh
