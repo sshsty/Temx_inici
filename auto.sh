@@ -14,9 +14,9 @@ then
     pkg install python -y
     pkg install python2 -y
     pkg install python3 -y
-    pip install --upgrade pip -y
-    pip2 install --upgrade pip -y
-    pip3 install --upgrade pip -y
+    pip install --upgrade pip
+    pip2 install --upgrade pip
+    pip3 install --upgrade pip
     pkg install curl -y
     pkg install nmap -y
     pkg install vim-python -y
