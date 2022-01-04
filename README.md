@@ -8,6 +8,6 @@ Forma de uso :
 
 git clone https://github.com/DezzmainOsKreuz/Temx_inici
 
-cd Termx_inici
+cd Temx_inici
 
 bash auto.sh
