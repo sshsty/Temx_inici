@@ -7,6 +7,7 @@ read continuar
 if [ $continuar == "continuar" ]
 then
     echo "iniciando"
+    termux-setup-storage
     pkg update && pkg upgrade -y
     apt install bash-completion -y
     pkg install wget -y
@@ -24,6 +25,7 @@ then
     pkg install nodejs -y
     pkg install exiftool -y
     pkg install util-linux
+    pkg install traceroute
     echo "Instalaciones finalizadas \c" 
     echo "Cosas instaladas:"
     echo "Wget : Wget es una herramienta libre que permite la descarga de contenidos desde servidores web de una forma simple"
@@ -36,6 +38,7 @@ then
     echo "Nodejs : Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto" 
     echo "Exiftool : ExifTool es un programa de software con el que podemos acceder y manipular los metadatos de una gran variedad de formatos"
     echo "Util-linux : El paquete Util-linux contiene una miscelánea de utilidades"
+    echo "Traceroute: Ver ruta por donde pasan los paquetes enviados" 
     
 elif [ $continuar == "cancelar" ] 
 then 
